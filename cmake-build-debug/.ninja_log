@@ -1,0 +1,5 @@
+# ninja log v5
+1	526	1677722799889943142	CMakeFiles/HelloWorld.dir/random.cpp.o	3c9802fc49fe89b9
+0	541	1677723113631985423	CMakeFiles/HelloWorld.dir/main.cpp.o	6f9d4248e201a34d
+1	526	1677723113615985503	CMakeFiles/HelloWorld.dir/dice.cpp.o	75fab54c2e9a96d
+541	632	1677723113723984959	HelloWorld	27d5a2fc081817e
