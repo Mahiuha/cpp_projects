@@ -3,6 +3,8 @@
 using namespace std;
 
 /*
+ * main -Entry point.
+ * Return: Always 0 (Success)
  * Created by mahiuha on 3/2/23.
  */
 
