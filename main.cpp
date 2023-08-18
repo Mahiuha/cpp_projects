@@ -10,6 +10,7 @@ using namespace std;
 
 int dice();
 int number_guess();
+int overflow();
 
 int main()
 {
