@@ -73,8 +73,14 @@ build CMakeFiles/HelloWorld.dir/algorithms/bubble_sort.cpp.o: CXX_COMPILER__Hell
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir/algorithms
 
-build CMakeFiles/HelloWorld.dir/vuln.cpp.o: CXX_COMPILER__HelloWorld_unscanned_Debug /home/mahiuha/CLionProjects/cpp_projects/cmake-build-debug/vuln.cpp || cmake_object_order_depends_target_HelloWorld
+build CMakeFiles/HelloWorld.dir/vuln.cpp.o: CXX_COMPILER__HelloWorld_unscanned_Debug /home/mahiuha/CLionProjects/cpp_projects/vuln.cpp || cmake_object_order_depends_target_HelloWorld
   DEP_FILE = CMakeFiles/HelloWorld.dir/vuln.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir
+
+build CMakeFiles/HelloWorld.dir/login.cpp.o: CXX_COMPILER__HelloWorld_unscanned_Debug /home/mahiuha/CLionProjects/cpp_projects/login.cpp || cmake_object_order_depends_target_HelloWorld
+  DEP_FILE = CMakeFiles/HelloWorld.dir/login.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir
@@ -87,7 +93,7 @@ build CMakeFiles/HelloWorld.dir/vuln.cpp.o: CXX_COMPILER__HelloWorld_unscanned_D
 #############################################
 # Link the executable HelloWorld
 
-build HelloWorld: CXX_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/main.cpp.o CMakeFiles/HelloWorld.dir/random.cpp.o CMakeFiles/HelloWorld.dir/dice.cpp.o CMakeFiles/HelloWorld.dir/algorithms/bubble_sort.cpp.o CMakeFiles/HelloWorld.dir/vuln.cpp.o
+build HelloWorld: CXX_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/main.cpp.o CMakeFiles/HelloWorld.dir/random.cpp.o CMakeFiles/HelloWorld.dir/dice.cpp.o CMakeFiles/HelloWorld.dir/algorithms/bubble_sort.cpp.o CMakeFiles/HelloWorld.dir/vuln.cpp.o CMakeFiles/HelloWorld.dir/login.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   POST_BUILD = :

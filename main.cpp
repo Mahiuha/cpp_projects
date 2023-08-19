@@ -10,12 +10,13 @@ using namespace std;
 
 int dice();
 int number_guess();
-int overflow();
+bool is_logged_in();
 
 int main()
 {
-    cout << dice() << endl;
-    cout << number_guess() << endl;
+    cout << dice() << endl
+         << number_guess() << endl
+         << is_logged_in() << endl;
 
     return 0;
 }
